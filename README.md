@@ -24,3 +24,26 @@ reverse_tcp_server.py：服务器端代码
 reverse_tcp_client.py：客户端代码
 ascii_file.txt：示例 ASCII 文件，包含要发送的数据
 readme.txt：本说明文件
+
+
+
+UDP Socket 编程任务
+1. 简介
+本项目通过创建UDP客户端和服务器来模拟网络通信，测量往返时间（RTT）和丢包率。
+
+2. 需求
+Python 3
+VirtualBox 
+基本网络设置，包含主机和虚拟机
+
+3. 文件
+udpserver.py: 服务器脚本
+udpclient.py: 客户端脚本
+
+4. 运行环境
+主机操作系统：支持Python 3的任意操作系统，本机为win11
+虚拟机操作系统：支持Python 3的任意Linux发行版
+
+5. 配置
+确保网络设置允许主机和虚拟机之间的通信。
+禁用主机和虚拟机上的防火墙，以免阻止UDP通信。
